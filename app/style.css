@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* default font family -- baloo */
+body {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* linear gradiant for light green and white */
+.hero {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8169468470982143) 40%,
+    rgba(55, 232, 148, 1) 100%
+  );
+}
+
+/* primary text color */
+.primary-text {
+  color: var(--primary);
+}
+
+/* primary bg color */
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.font-primary {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-baloo {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.section-2 {
+  border-bottom-left-radius: 160px;
+  border-top-left-radius: 160px;
+  margin-top: 4px;
+  margin-left: 10%; 
+}
+
+.img-class{
+  position: relative;
+  left: -10%;
+}
