@@ -25,17 +25,20 @@ body {
   background-color: var(--primary);
 }
 
+/* primary font for website */
 .font-primary {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-style: normal;
 }
 
+/* font baloo */
 .font-baloo {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
 }
 
+/* section 2 About me */
 .section-2 {
   border-bottom-left-radius: 160px;
   border-top-left-radius: 160px;
@@ -43,6 +46,7 @@ body {
   margin-left: 10%; 
 }
 
+/* section-2 img */
 .img-class{
   position: relative;
   left: -10%;
